@@ -1,0 +1,7 @@
+.custom-button {
+  transition: background-color 0.2s ease !important;
+}
+
+.custom-button:hover {
+  background-color: var(--hover-bg) !important;
+}

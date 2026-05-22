@@ -1,0 +1,34 @@
+
+body{
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+:root {
+
+    /* branding */
+
+  --Brand: #FF976B;
+
+
+  /* Theme */
+
+  --Black: #1A1A1A;
+  --White:white;
+
+
+  /* shades */
+
+  --LiteWhite:whitesmoke;
+  --LiteBlack:grey;
+
+}

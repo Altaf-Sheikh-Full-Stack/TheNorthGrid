@@ -1,0 +1,77 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-inline: 50px;
+  border-radius: 10px;
+}
+
+
+
+.Navbar-Content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Navbar-Content p {
+  cursor: pointer;
+}
+
+.Navbar-Content p:hover {
+  color: blueviolet !important;
+}
+
+.Navbar-Content-Solution {
+  padding: 50px;
+  position: absolute;
+}
+
+.Navbar-Content-Solution-Child {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.Navbar-Content-Solution-Child-Card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.Navbar-Content-Solution-Child-Card-Child {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+
+}
+
+.Navbar-Mobile{
+    display: none;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px !important;
+}
+
+.Navbar-Mobile-Content{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    .Navbar-Mobile{
+        display: flex;
+    }
+
+  .Navbar {
+    display: none;
+  }
+}
