@@ -1,0 +1,13 @@
+.Intro {
+  padding: 50px;
+  margin-top: 10px !important;
+  border-radius: 10px ;
+}
+
+.Intro-text-highlighted {
+  background-color: #FF976B;
+  height: 50px;
+  width: max-content;
+  display: inline;
+  /* box-decoration-break: clone; */
+}

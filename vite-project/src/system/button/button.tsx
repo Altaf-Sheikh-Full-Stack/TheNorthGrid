@@ -18,6 +18,7 @@ interface ButtonProps {
     padding?: string;
     children: React.ReactNode;
     onClick?: React.MouseEventHandler<HTMLButtonElement>;
+    onHover?: React.MouseEventHandler<HTMLButtonElement>
     disabled?: boolean;
     className?: string;
     rounded?: BorderRadius;
@@ -64,6 +65,7 @@ const Button = ({
     padding,
     children,
     onClick,
+  
     disabled = false,
     className,
     rounded = 'none',
@@ -95,6 +97,7 @@ const Button = ({
             type={type}
             style={styles}
             onClick={disabled ? undefined : onClick}
+            
             disabled={disabled}
             className={`custom-button ${className ?? ""}`}
         >

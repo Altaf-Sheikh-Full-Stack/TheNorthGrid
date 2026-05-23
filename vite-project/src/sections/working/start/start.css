@@ -1,0 +1,18 @@
+.WorkingStart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    margin: 50px;
+}
+
+.WorkingStart-Left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.WorkingStart-Right-Img{
+    height: 500px;
+    width: 500px;
+}

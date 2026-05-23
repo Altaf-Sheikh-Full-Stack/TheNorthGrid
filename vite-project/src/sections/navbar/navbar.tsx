@@ -44,10 +44,8 @@ const Navbar = () => {
         <Section className='Navbar' backgroundColor="White" >
             <Box className='Navbar-Content' backgroundColor="White" >
                 <Text font="playful"  >NorthGrid</Text>
-                <Button backgroundColor="White" rounded="Full" bold="Normal" size="medium">How it't works</Button>
-                <Button backgroundColor="White" rounded="Full" bold="Normal" size="medium">Solutions</Button>
-                <Button backgroundColor="White" rounded="Full" bold="Normal" size="medium">CaseStudy</Button>
-                <Button backgroundColor="White" rounded="Full" bold="Normal" size="medium">Pricing</Button>
+                <Button backgroundColor="White" rounded="Full" bold="Normal" size="large">How it't works</Button>
+                <Button backgroundColor="White" rounded="Full" bold="Normal" size="large">Pricing</Button>
             </Box>
             <Box className='Navbar-Mobile-Content' backgroundColor="White" >
                 <Button backgroundColor="LiteWhite" rounded="Half" size="large">Signup</Button>

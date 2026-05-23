@@ -1,6 +1,6 @@
 
 
-type Size = "small" | "medium" | "large" | "semiLarge"
+type Size = "small" | "medium" | "large" | "semiLarge" | "semiMedium"
 type TextType = "heading" | "subHeading" | "text"
 type Font = "sharp" | "playful"
 type Color = "black" | "white" | "lite"
@@ -17,6 +17,7 @@ interface TextProb {
 
 const sizeStyles: Record<Size, { calc: string }> = {
     small: { calc: "18px" },
+    semiMedium: { calc: "22px" },
     medium: { calc: "30px" },
     semiLarge: { calc: "clamp(1rem, 1.2rem + min(100vw, 1920px) / 50, 3rem)" },
     large: { calc: "clamp(2rem, 1.2rem + min(100vw, 1920px) / 50, 15rem)" }
