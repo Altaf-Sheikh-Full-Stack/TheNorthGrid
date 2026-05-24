@@ -33,7 +33,7 @@ const boldStyles: Record<Bold, { weight: string }> = {
 
 
 const variantStyles: Record<Variant, { Hover: string, Color: string }> = {
-    Brand: { Color: "var(--Brand)", Hover: 'rgb(61, 0, 117)' },
+    Brand: { Color: "var(--Brand)", Hover: '#fd6a2a' },
     Black: { Color: "var(--Black)", Hover: ' rgb(0, 0, 0)' },
     White: { Color: "var(--White)", Hover: ' rgb(230, 230, 230)' },
     LiteWhite: { Color: "var(--LiteWhite)", Hover: 'rgb(204, 204, 204)' },

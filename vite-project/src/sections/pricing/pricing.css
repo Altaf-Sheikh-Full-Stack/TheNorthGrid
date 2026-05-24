@@ -1,0 +1,40 @@
+.Pricing-Container {
+  padding: 50px;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+}
+
+.Pricing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  
+}
+
+.Pricing-card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Pricing-card-Top{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+}
+
+
+.Pricing-card-Button{
+    width: 100%;
+}
+
+.Pricing-card-Info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}

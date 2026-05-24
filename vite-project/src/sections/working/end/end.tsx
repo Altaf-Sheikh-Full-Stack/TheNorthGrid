@@ -2,18 +2,17 @@ import { useEffect, useState } from "react"
 import Box from "../../../system/box/box"
 import Button from "../../../system/button/button"
 import Section from "../../../system/section/section"
-import startData from "./startData"
-import './start.css'
+import endData from "./endData"
+import './end.css'
 
 
-const WorkingStart = () => {
+const WorkingEnd = () => {
 
     const [showImage, setShowImage] = useState<string>()
 
-
     useEffect(() => {
-        for (let i = 0; i < startData.length; i++) {
-            setShowImage(startData[0].img)
+        for (let i = 0; i < endData.length; i++) {
+            setShowImage(endData[0].img)
         }
     }, [])
 
@@ -24,7 +23,7 @@ const WorkingStart = () => {
     return (
         <Section className="WorkingStart" backgroundColor="LiteWhite">
             <Box className="WorkingStart-Left" backgroundColor="LiteWhite">
-                {startData.map((data, index) => (
+                {endData.map((data, index) => (
                     <div key={index} onPointerEnter={() => OnMouseEnter(data.img)}>
                         <Button rounded="Half" bold="Normal">{data.name}</Button>
                     </div>
@@ -33,8 +32,9 @@ const WorkingStart = () => {
             <Box className="WorkingStart-Right">
                 <img className="WorkingStart-Right-Img" src={showImage} alt="" />
             </Box>
+
         </Section>
     )
 }
 
-export default WorkingStart
+export default WorkingEnd
