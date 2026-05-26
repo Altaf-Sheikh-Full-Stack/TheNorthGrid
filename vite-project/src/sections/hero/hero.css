@@ -140,9 +140,9 @@
 
 
 @media screen and (max-width: 1000px) {
-  .Hero {
+  /* .Hero { */
     /* flex-direction: column; */
-  }
+  /* } */
 
   .Hero-info {
     width: 100%;

@@ -1,14 +1,14 @@
-import { useState } from "react"
-import Text from "../../../system/text/text"
+// import { useState } from "react"
+// import Text from "../../../system/text/text"
 
 
-const Countdown = () => {
+// const Countdown = () => {
 
-    const [timeLeft, setTimeleft] = useState()
+//     const [timeLeft, setTimeleft] = useState()
 
-    return(
-        <Text>{timeLeft}</Text>
-    )
-}
+//     return(
+//         <Text>{timeLeft}</Text>
+//     )
+// }
 
-export default Countdown
+// export default Countdown
