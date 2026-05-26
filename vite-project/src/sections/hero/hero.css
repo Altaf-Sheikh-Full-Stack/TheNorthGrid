@@ -141,7 +141,7 @@
 
 @media screen and (max-width: 1000px) {
   .Hero {
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 
   .Hero-info {

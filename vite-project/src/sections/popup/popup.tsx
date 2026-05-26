@@ -3,15 +3,20 @@ import Button from "../../system/button/button"
 import Section from "../../system/section/section"
 import { createPortal } from "react-dom"
 import './popup.css'
+import Text from "../../system/text/text"
+
+
 
 
 const Popup = () => {
+
+
     return (
         <>
             {createPortal(
                 <Section className="Popup">
                     <Box>
-                        Offer ends in - 
+                        <Text size="semiMedium">Offer ends in - </Text>
                     </Box>
                     <Box>
                         <Button backgroundColor="Brand" rounded="Half">Get job now</Button>
