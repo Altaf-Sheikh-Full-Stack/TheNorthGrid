@@ -16,7 +16,7 @@ const Popup = () => {
             {createPortal(
                 <Section className="Popup">
                     <Box>
-                        <Text size="semiMedium"></Text>
+                        <Text size="semiMedium">The website is still me dev mode do not pay (if you have any qustion please ask us by chatbot)</Text>
                     </Box>
                     <Box>
                         <Button backgroundColor="Brand" rounded="Half">Get job now</Button>
