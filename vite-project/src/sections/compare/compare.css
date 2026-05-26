@@ -1,19 +1,23 @@
 .Compare{
     padding: 50px;
+    border-radius: 10px !important;
+    margin-top: 10px !important;
 }
 
 .Compare-Table{
  border-collapse: collapse;
   width: 100%;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px !important;
 }
 
 
 td, th {
   border: 1px solid whitesmoke;
   text-align: left;
-  padding: 20px;
+  padding: 30px;
   background-color: rgb(255, 255, 255);
   
 }
+
+
 

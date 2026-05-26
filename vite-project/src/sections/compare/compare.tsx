@@ -5,7 +5,7 @@ import './compare.css'
 
 const Compare = () => {
     return (
-        <Section className="Compare">
+        <Section className="Compare" >
             <table className="Compare-Table">
                 <tr>
                     <th><Text>Compare</Text></th>
@@ -15,7 +15,7 @@ const Compare = () => {
                 <tr>
                     <td><Text size="semiMedium">Get job in</Text> </td>
                     <td><Text size="semiMedium">In years </Text></td>
-                    <td><Text size="semiMedium">In weeks </Text></td>
+                    <td><Text  size="semiMedium">In weeks </Text></td>
                 </tr>
                 <tr>
                     <td> <Text size="semiMedium">How many applications to get one interview? </Text></td>

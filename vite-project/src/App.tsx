@@ -5,10 +5,11 @@ import WorkingPage from "./sections/working/page/page"
 import Compare from "./sections/compare/compare"
 import Footer from "./sections/footer/footer"
 import Pricing from "./sections/pricing/pricing"
-
+import Popup from "./sections/popup/popup"
 const App = () => {
   return (
     <>
+      
       <Navbar />
       <Hero />
       <Numbers/>
@@ -16,6 +17,7 @@ const App = () => {
       <Compare/>
       <Pricing/>
       <Footer/>
+    <Popup/>
     </>
   )
 }

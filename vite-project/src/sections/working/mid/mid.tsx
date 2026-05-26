@@ -21,15 +21,15 @@ const WorkingMid = () => {
     }
 
     return (
-        <Section className="WorkingStart" backgroundColor="LiteWhite">
+        <Section className="WorkingStart" >
 
             <Box className="WorkingStart-Right">
                 <img className="WorkingStart-Right-Img" src={showImage} alt="" />
             </Box>
-            <Box className="WorkingStart-Left" backgroundColor="LiteWhite">
+            <Box className="WorkingStart-Left" >
                 {midData.map((data, index) => (
                     <div key={index} onPointerEnter={() => OnMouseEnter(data.img)}>
-                        <Button rounded="Half" bold="Normal">{data.name}</Button>
+                        <Button rounded="Half" backgroundColor="LiteWhite" bold="Normal">{data.name}</Button>
                     </div>
                 ))}
             </Box>
