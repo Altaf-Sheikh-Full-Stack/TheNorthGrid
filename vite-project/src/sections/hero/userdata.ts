@@ -10,18 +10,18 @@ import img8 from '../../assets/hero/image 23.webp'
 export const userData1 = [
     {
         img: img,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     },
 
     {
         img: img2,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     },
@@ -29,18 +29,18 @@ export const userData1 = [
 
     {
         img: img3,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     },
 
     {
         img: img4,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     },
@@ -48,18 +48,18 @@ export const userData1 = [
 
     {
         img: img,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     },
 
     {
         img: img2,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     },
@@ -67,18 +67,18 @@ export const userData1 = [
 
     {
         img: img3,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     },
 
     {
         img: img4,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     }
@@ -93,18 +93,18 @@ export const userData1 = [
 export const userData2 = [
     {
         img: img5,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     },
 
     {
         img: img6,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     },
@@ -112,18 +112,18 @@ export const userData2 = [
 
     {
         img: img7,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     },
 
     {
         img: img8,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     },
@@ -131,18 +131,18 @@ export const userData2 = [
 
         {
         img: img5,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     },
 
     {
         img: img6,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     },
@@ -150,18 +150,18 @@ export const userData2 = [
 
     {
         img: img7,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     },
 
     {
         img: img8,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     }
@@ -176,18 +176,18 @@ export const userData2 = [
 export const userData3 = [
     {
         img: img,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     },
 
     {
         img: img,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     },
@@ -195,9 +195,9 @@ export const userData3 = [
 
     {
         img: img,
-        name: 'name',
+        // name: 'name',
         position: 'software devloper',
-        company: 'sdsa',
+        // company: 'sdsa',
         salary: '25LPA'
 
     }

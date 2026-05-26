@@ -16,7 +16,7 @@ const Popup = () => {
             {createPortal(
                 <Section className="Popup">
                     <Box>
-                        <Text size="semiMedium">Offer ends in - </Text>
+                        <Text size="semiMedium"></Text>
                     </Box>
                     <Box>
                         <Button backgroundColor="Brand" rounded="Half">Get job now</Button>
