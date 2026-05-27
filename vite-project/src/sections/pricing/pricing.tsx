@@ -9,7 +9,7 @@ const Pricing = () => {
         <Section className="Pricing-Container">
             <Box>
                 <Text size="large" font="playful">Pricing</Text>
-                <Text>Our full trusted and tranparent pricing, created to fill you needs</Text>
+                <Text>Our fully trusted and transparent pricing, designed to fit your needs.</Text>
             </Box>
             <Box className="Pricing" backgroundColor="LiteWhite">
                 <Box className="Pricing-card" borderRadius="half" backgroundColor="LiteWhite">

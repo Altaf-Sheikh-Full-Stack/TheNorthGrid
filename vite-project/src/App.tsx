@@ -6,10 +6,12 @@ import Compare from "./sections/compare/compare"
 import Footer from "./sections/footer/footer"
 import Pricing from "./sections/pricing/pricing"
 import Popup from "./sections/popup/popup"
+import Modal from "./system/modal/modal"
+
 const App = () => {
   return (
     <>
-      
+      <Modal/>
       <Navbar />
       <Hero />
       <Numbers/>

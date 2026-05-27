@@ -134,9 +134,17 @@
   padding: 20px ;
   border-end-start-radius: 10px;
   border-end-end-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   
 }
 
+
+.Hero-Content-Section-Card-Info-Name{
+  display: flex;
+  justify-content: space-between;
+}
 
 
 @media screen and (max-width: 1000px) {
