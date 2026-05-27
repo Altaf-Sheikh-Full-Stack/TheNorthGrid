@@ -42,10 +42,10 @@ const Hero = () => {
                                 <Box className="Hero-Content-Section-Card-Info" >
                                     <Text size="semiMedium">{data.position}</Text>
                                     <Box >
-                                        <Text size="small">{data.name}</Text>
+                                        {/* <Text size="small">{data.name}</Text> */}
                                         <Text size="small">{data.salary}</Text>
                                     </Box>
-                                    <Text>{data.company}</Text>
+                                    {/* <Text>{data.company}</Text> */}
                                 </Box>
                             </Box>
                         ))}
@@ -59,10 +59,10 @@ const Hero = () => {
                                 <Box className="Hero-Content-Section-Card-Info" >
                                     <Text size="semiMedium">{data.position}</Text>
                                     <Box >
-                                        <Text size="small">{data.name}</Text>
+                                        {/* <Text size="small">{data.name}</Text> */}
                                         <Text size="small">{data.salary}</Text>
                                     </Box>
-                                    <Text>{data.company}</Text>
+                                    {/* <Text>{data.company}</Text> */}
                                 </Box>
                             </Box>
                         ))}
