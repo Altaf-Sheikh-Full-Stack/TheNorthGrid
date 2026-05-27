@@ -1,13 +1,15 @@
 .Compare{
-    padding: 50px;
+    padding: clamp(10px, 5vw, 50px);
     border-radius: 10px !important;
     margin-top: 10px !important;
+    overflow: auto;
 }
 
 .Compare-Table{
  border-collapse: collapse;
   width: 100%;
   border-radius: 20px !important;
+  
 }
 
 

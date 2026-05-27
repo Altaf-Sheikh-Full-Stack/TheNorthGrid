@@ -16,9 +16,9 @@ interface TextProb {
 
 
 const sizeStyles: Record<Size, { calc: string }> = {
-    small: { calc: "18px" },
-    semiMedium: { calc: "22px" },
-    medium: { calc: "30px" },
+    small: { calc: "clamp(.2rem, .5rem + min(100vw, 1920px) / 50, 1.2rem)" },
+    semiMedium: { calc: "clamp(.5rem, .5rem + min(100vw, 1920px) / 50, 1.5rem)" },
+    medium: { calc: "clamp(1rem, .5rem + min(100vw, 1920px) / 50, 1.8rem)" },
     semiLarge: { calc: "clamp(1rem, 1.2rem + min(100vw, 1920px) / 50, 3rem)" },
     large: { calc: "clamp(2rem, 1.2rem + min(100vw, 1920px) / 50, 15rem)" }
 }

@@ -4,6 +4,7 @@ import { createPortal } from 'react-dom'
 import { useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import useModalStore from '../../context/modal'
+import Text from '../text/text'
 
 const backdrop = {
     hidden: { opacity: 0 },
@@ -70,11 +71,7 @@ const Modal = () => {
                     >
 
                         <Section backgroundColor="White">
-
-                            <div>
-                                {data.text}
-                            </div>
-
+                            <Text>{data.text}</Text>
                         </Section>
 
                     </motion.div>

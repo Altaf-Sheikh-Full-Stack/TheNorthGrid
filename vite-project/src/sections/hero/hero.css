@@ -11,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  padding: 50px;
+  padding: clamp(10px, 5vw, 50px);
   border-radius: 10px !important;
 }
 
@@ -21,29 +21,26 @@
   gap: 20px;
 }
 
-.Hero-info-text-Hint{
+.Hero-info-text-Hint {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-
-
-.Hero-info-text-Hint-Image img{
+.Hero-info-text-Hint-Image img {
   width: 50px;
   height: 50px;
   object-fit: cover;
   border-radius: 50px;
   margin-right: -10px;
   background-color: white;
-  
 }
 
 .Hero-info-text h1 {
   line-height: 110%;
 }
 
-.Hero-info-text-highlighted{
+.Hero-info-text-highlighted {
   background-color: white;
   width: max-content;
   height: 20%;
@@ -53,10 +50,9 @@
   display: flex;
   gap: 10px;
   align-items: center;
-  
 }
 
-.Hero-info-buttons button{
+.Hero-info-buttons button {
   font-size: 30px !important;
   padding: 30px !important;
 }
@@ -70,28 +66,27 @@
   background-color: white !important;
   padding-inline: 20px;
   border-radius: 10px;
-  
+  overflow: hidden;
 }
 
-.Hero-Content-Section{
-  overflow: hidden;
+.Hero-Content-Section {
   padding: 10px;
 }
 
-.Hero-Content-Section::-webkit-scrollbar{
+.Hero-Content-Section::-webkit-scrollbar {
   display: none;
 }
 
-.Hero-Content-Section-Scroll1{
-  animation: scrollYsUp  10s linear infinite;
+.Hero-Content-Section-Scroll1 {
+  animation: scrollYsUp 10s linear infinite;
 }
 
-.Hero-Content-Section-Scroll2{
-  animation: scrollYsDown  10s linear infinite;
+.Hero-Content-Section-Scroll2 {
+  animation: scrollYsDown 10s linear infinite;
 }
 
 @keyframes scrollYsDown {
-0% {
+  0% {
     transform: translateY(0);
   }
   100% {
@@ -100,7 +95,7 @@
 }
 
 @keyframes scrollYsUp {
-100% {
+  100% {
     transform: translateY(0);
   }
   0% {
@@ -108,54 +103,50 @@
   }
 }
 
-
-
-
-
-.Hero-Content-Section-Card{
+.Hero-Content-Section-Card {
   /* height: 400px; */
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin-top: 10px;
 }
 
-.Hero-Content-Section-Card img{
+.Hero-Content-Section-Card img {
   width: 100%;
   height: 50%;
   object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-
-
 }
 
-
-
-.Hero-Content-Section-Card-Info{
-  padding: 20px ;
+.Hero-Content-Section-Card-Info {
+  padding: 20px;
   border-end-start-radius: 10px;
   border-end-end-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  
 }
 
-
-.Hero-Content-Section-Card-Info-Name{
+.Hero-Content-Section-Card-Info-Name {
   display: flex;
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1535px) {
+  .Hero-info-buttons button {
+    font-size: 20px !important;
+    padding: 20px !important;
+  }
+}
 
 @media screen and (max-width: 1000px) {
-  /* .Hero { */
-    /* flex-direction: column; */
-  /* } */
+  .Hero {
+    flex-direction: column;
+  }
 
   .Hero-info {
     width: 100%;
     gap: 30px;
-    padding: 30px;
+    /* padding: 30px; */
   }
 
   .Hero-Content {
@@ -164,17 +155,32 @@
 }
 
 @media screen and (max-width: 640px) {
-  .Hero-Content-Child p{
-    font-size: 16px  !important;
+  .Hero-Content-Child p {
+    font-size: 16px !important;
+  }
+
+  .Hero-info-buttons {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .Hero-info-buttons button{
+    width: 100%;
   }
 }
 
-
 @media screen and (max-width: 500px) {
-  .Hero-Content-Child p{
-    font-size: 10px  !important;
+  .Hero-Content-Child p {
+    font-size: 10px !important;
   }
-  .Hero-Content-Child div{
+  .Hero-Content-Child div {
     padding: 15px !important;
+  }
+}
+
+@media screen and (max-width: 444px) {
+  .Hero-info-text-Hint-Image img {
+    height: 30px;
+    width: 30px;
   }
 }

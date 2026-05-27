@@ -7,65 +7,42 @@
   border-radius: 10px;
 }
 
-
-
 .Navbar-Content {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.Navbar-Content p {
-  cursor: pointer;
-}
 
-.Navbar-Content p:hover {
-  color: blueviolet !important;
-}
 
-.Navbar-Content-Solution {
-  padding: 50px;
-  position: absolute;
-}
 
-.Navbar-Content-Solution-Child {
+
+.Navbar-Button {
   display: flex;
-  justify-content: space-evenly;
-  gap: 20px;
+  gap: 10px;
 }
 
-.Navbar-Content-Solution-Child-Card {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 100%;
+.Navbar-Button-Small{
+  display: none;
+  gap: 10px;
 }
 
-.Navbar-Content-Solution-Child-Card-Child {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 20px;
-  padding: 20px;
+@media screen and (max-width: 1000px) {
+  .Navbar {
+    padding: 10px;
+  }
 
-}
-
-.Navbar-Mobile{
+  .Navbar-Menu {
     display: none;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px !important;
-}
+  }
 
-.Navbar-Mobile-Content{
+  .Navbar-Button{
+    display: none;
+  }
+
+  .Navbar-Button-Small{
     display: flex;
-    gap: 10px;
-}
-
-
-
-@media screen and (max-width: 700px) {
+  }
 
  
 }

@@ -17,13 +17,18 @@ const Navbar = () => {
 
 
             </Box>
-            <Box backgroundColor="LiteWhite" borderRadius="full">
+            <Box className="Navbar-Menu" backgroundColor="LiteWhite" borderRadius="full">
                 <Button backgroundColor="LiteWhite" rounded="Full" bold="Normal" >Process</Button>
+                <Button backgroundColor="LiteWhite" rounded="Full" bold="Normal" >Compare</Button>
                 <Button backgroundColor="LiteWhite" rounded="Full" bold="Normal" >Pricing</Button>
             </Box>
-            <Box className='Navbar-Mobile-Content' backgroundColor="White" >
+            <Box className='Navbar-Button' backgroundColor="White" >
                 <Button backgroundColor="LiteWhite" rounded="Half" size="large">Signup</Button>
                 <Button backgroundColor="Brand" size="large" rounded="Half">Register</Button>
+            </Box>
+             <Box className='Navbar-Button-Small' backgroundColor="White" >
+                <Button backgroundColor="LiteWhite" rounded="Half" size="medium">Signup</Button>
+                <Button backgroundColor="Brand" size="medium" rounded="Half">Register</Button>
             </Box>
         </Section>
 

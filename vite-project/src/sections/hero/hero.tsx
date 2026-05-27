@@ -31,6 +31,7 @@ const Hero = () => {
                     <Button backgroundColor="Black" rounded="Half" size="large" color="light">Land in interviews now</Button>
                     <Text size="semiMedium">Get a chnace to work with top MNC, <br /> Offer ends today</Text>
                 </Box>
+                
 
             </Box>
             <Box className="Hero-Content">
