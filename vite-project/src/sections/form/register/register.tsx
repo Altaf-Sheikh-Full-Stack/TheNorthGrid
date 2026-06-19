@@ -1,17 +1,13 @@
 import Box from "../../../system/box/box"
 import Button from "../../../system/button/button"
-import Form from "../../../system/form/form"
-import Input from "../../../system/input/input"
+
 import Section from "../../../system/section/section"
 import Text from "../../../system/text/text"
 
 
 const Register = () => {
 
-    const submit = (e: MouseEvent) => {
-        e.preventDefault()
-        
-    }
+
 
     return(
        <Section className="Pricing-Container" id="Pricing-Container">
