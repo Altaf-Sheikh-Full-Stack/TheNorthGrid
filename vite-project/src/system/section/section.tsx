@@ -9,6 +9,7 @@ interface SectionProps {
     children: React.ReactNode
     backgroundColor?: BackgroundColor
     className?: string
+    id?: string
 }
 
 
@@ -31,6 +32,7 @@ const Section = ({
     children,
     backgroundColor = 'White',
     className,
+    id,
  
 
 }: SectionProps) => {
@@ -43,7 +45,7 @@ const Section = ({
     }
 
     return (
-        <section className={className} style={styles}>
+        <section className={className} id={id} style={styles}>
             {children}
         </section>
     )

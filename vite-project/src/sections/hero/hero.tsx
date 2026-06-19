@@ -58,12 +58,12 @@ const Hero = () => {
                             <Box className="Hero-Content-Section-Card" key={index}>
                                 <img src={data.img} alt="" />
                                 <Box className="Hero-Content-Section-Card-Info" >
-                                    <Text size="semiMedium">{data.position}</Text>
-                                    <Box >
-                                        {/* <Text size="small">{data.name}</Text> */}
-                                        <Text size="small">{data.salary}</Text>
+                                    
+                                    <Box className="Hero-Content-Section-Card-Info-Name" >
+                                        <Text size="semiMedium">{data.name}</Text>
+                                        <Text size="semiMedium">{data.salary}</Text>
                                     </Box>
-                                    {/* <Text>{data.company}</Text> */}
+                                    <Text size="small">{data.position}</Text>
                                 </Box>
                             </Box>
                         ))}

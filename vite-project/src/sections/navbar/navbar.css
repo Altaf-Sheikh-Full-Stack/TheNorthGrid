@@ -5,6 +5,10 @@
   padding: 10px;
   padding-inline: 50px;
   border-radius: 10px;
+  position: sticky;
+  top: 0%;
+  z-index: 999;
+  
 }
 
 .Navbar-Content {

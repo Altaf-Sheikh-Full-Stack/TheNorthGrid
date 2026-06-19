@@ -1,15 +1,23 @@
-import Box from "../../system/box/box"
-import Button from "../../system/button/button"
-import Section from "../../system/section/section"
-import Text from "../../system/text/text"
-import './pricing.css'
+import Box from "../../../system/box/box"
+import Button from "../../../system/button/button"
+import Form from "../../../system/form/form"
+import Input from "../../../system/input/input"
+import Section from "../../../system/section/section"
+import Text from "../../../system/text/text"
 
-const Pricing = () => {
-    return (
-        <Section className="Pricing-Container" id="Pricing-Container">
+
+const Register = () => {
+
+    const submit = (e: MouseEvent) => {
+        e.preventDefault()
+        
+    }
+
+    return(
+       <Section className="Pricing-Container" id="Pricing-Container">
             <Box>
-                <Text size="large" font="playful">Pricing</Text>
-                <Text>Our fully trusted and transparent pricing, designed to fit your needs.</Text>
+                <Text size="large" font="playful">Register</Text>
+                <Text>Register now and get job offer in weeks</Text>
             </Box>
             <Box className="Pricing" backgroundColor="White">
                 <Box className="Pricing-card" borderRadius="half" backgroundColor="LiteWhite">
@@ -17,7 +25,7 @@ const Pricing = () => {
                         <Text>Get job in weeks</Text>
                         <Text font="playful">₹999</Text>
                     </Box>
-                    <a href="https://rzp.io/rzp/tyP4cEgF"><Button className="Pricing-card-Button" backgroundColor="Brand"  bold="Bold" rounded="Half" size="large" type="button">Get job now</Button></a>
+                    <a href="https://rzp.io/rzp/tyP4cEgF"> <Button className="Pricing-card-Button" backgroundColor="Brand"  bold="Bold" rounded="Half" size="large" type="button">Register now</Button> </a>
                     <Box className="Pricing-card-Info" borderRadius="half">
                         <Text size="small">First priority</Text>
                         <Text size="small">One on one mock interview</Text>
@@ -33,7 +41,7 @@ const Pricing = () => {
                         <Text>Get job in months</Text>
                         <Text font="playful">₹699</Text>
                     </Box>
-                  <a href="https://rzp.io/rzp/TfufHqSL"> <Button className="Pricing-card-Button" backgroundColor="Brand"   bold="Bold" rounded="Half" size="large" type="button">Get job now</Button> </a> 
+                   <a href="https://rzp.io/rzp/TfufHqSL"><Button className="Pricing-card-Button" backgroundColor="Brand"   bold="Bold" rounded="Half" size="large" type="button">Register now</Button> </a>
                     <Box className="Pricing-card-Info" borderRadius="half">
                         <Text size="small">Second priority</Text>
                         <Text size="small">Gorup mock interview</Text>
@@ -50,7 +58,7 @@ const Pricing = () => {
                         <Text>Get job in years</Text>
                         <Text font="playful">₹299</Text>
                     </Box>
-                   <a href="https://rzp.io/rzp/k976nyDc"> <Button className="Pricing-card-Button" backgroundColor="Brand"   bold="Bold" rounded="Half" size="large" type="button">Get job now</Button> </a>
+                    <a href="https://rzp.io/rzp/k976nyDc"><Button className="Pricing-card-Button" backgroundColor="Brand"   bold="Bold" rounded="Half" size="large" type="button">Register now</Button></a> 
                     <Box className="Pricing-card-Info" borderRadius="half">
                         <Text size="small">Third priority</Text>
                         <Text size="small">No mock interview</Text>
@@ -66,4 +74,5 @@ const Pricing = () => {
     )
 }
 
-export default Pricing
+
+export default Register

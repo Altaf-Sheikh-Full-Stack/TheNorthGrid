@@ -12,7 +12,7 @@ export const userData1 = [
         img: img,
         name: 'Ankit sharma',
         position: 'Software developer',
-        salary: '25LPA'
+        salary: '9LPA'
 
     },
 
@@ -20,26 +20,59 @@ export const userData1 = [
         img: img2,
         name: 'Ajam khan',
         position: 'Software engineer',
-        salary: '25LPA'
+        salary: '12LPA'
 
     },
 
 
     {
         img: img3,
-        name: 'n',
+        name: 'Anil Gangurde',
         position: 'Web developer',
-        // company: 'sdsa',
-        salary: '25LPA'
+        salary: '6LPA'
 
     },
 
     {
         img: img4,
-        name: 'name',
+        name: 'Manoj Khanam',
         position: 'Frontend developer',
-        // company: 'sdsa',
-        salary: '25LPA'
+        salary: '3LPA'
+
+    },
+
+
+
+        {
+        img: img,
+        name: 'Ankit sharma',
+        position: 'Software developer',
+        salary: '9LPA'
+
+    },
+
+    {
+        img: img2,
+        name: 'Ajam khan',
+        position: 'Software engineer',
+        salary: '12LPA'
+
+    },
+
+
+    {
+        img: img3,
+        name: 'Anil Gangurde',
+        position: 'Web developer',
+        salary: '6LPA'
+
+    },
+
+    {
+        img: img4,
+        name: 'Manoj Khanam',
+        position: 'Frontend developer',
+        salary: '3LPA'
 
     },
 
@@ -56,37 +89,67 @@ export const userData1 = [
 export const userData2 = [
     {
         img: img5,
-        // name: 'name',
-        position: 'software devloper',
-        // company: 'sdsa',
-        salary: '25LPA'
+        name: 'Mukesh Nessa',
+        position: 'Data analyst',
+        salary: '12LPA'
 
     },
 
     {
         img: img6,
-        // name: 'name',
-        position: 'software devloper',
-        // company: 'sdsa',
-        salary: '25LPA'
+        name: 'Santosh Gamit',
+        position: 'Cyber security analyst',
+        salary: '16LPA'
 
     },
 
 
     {
         img: img7,
-        // name: 'name',
-        position: 'software devloper',
-        // company: 'sdsa',
-        salary: '25LPA'
+        name: 'Raj Kar',
+        position: 'Web designer',
+        salary: '1LPA'
 
     },
 
     {
         img: img8,
-        // name: 'name',
-        position: 'software devloper',
-        // company: 'sdsa',
+        name: 'Asha Jain',
+        position: 'Product manager',
+        salary: '25LPA'
+
+    },
+
+
+        {
+        img: img5,
+        name: 'Mukesh Nessa',
+        position: 'Data analyst',
+        salary: '12LPA'
+
+    },
+
+    {
+        img: img6,
+        name: 'Santosh Gamit',
+        position: 'Cyber security analyst',
+        salary: '16LPA'
+
+    },
+
+
+    {
+        img: img7,
+        name: 'Raj Kar',
+        position: 'Web designer',
+        salary: '1LPA'
+
+    },
+
+    {
+        img: img8,
+        name: 'Asha Jain',
+        position: 'Product manager',
         salary: '25LPA'
 
     },

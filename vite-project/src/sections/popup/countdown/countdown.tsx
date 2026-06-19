@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Text from "../../../system/text/text";
 
 function CountDown() {
-  const targetDate = new Date("may 30, 2026 15:37:25").getTime();
+  const targetDate = new Date("june 30, 2026 15:37:25").getTime();
 
   const getTimeRemaining = () => {
     const now = new Date().getTime();
@@ -35,7 +35,7 @@ function CountDown() {
   }, []);
 
   return (
-    <Text size="semiMedium">Offer ends in -  {timeLeft}</Text>
+    <Text size="semiMedium" font="playful">Registration ends in -  {timeLeft}</Text>
   );
 }
 

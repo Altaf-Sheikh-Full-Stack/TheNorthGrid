@@ -1,0 +1,14 @@
+.Login{
+    margin-top: 10px !important;
+    text-align: center ;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.LoginCard{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

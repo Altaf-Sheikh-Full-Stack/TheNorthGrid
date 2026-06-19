@@ -1,25 +1,18 @@
-import Navbar from "./sections/navbar/navbar"
-import Hero from "./sections/hero/hero"
-import Numbers from "./sections/numbers/numbers"
-import WorkingPage from "./sections/working/page/page"
-import Compare from "./sections/compare/compare"
-import Footer from "./sections/footer/footer"
-import Pricing from "./sections/pricing/pricing"
-import Popup from "./sections/popup/popup"
-import Modal from "./system/modal/modal"
+import HomePage from "./pages/home"
+import { BrowserRouter, Route, Routes } from "react-router"
+import LoginPage from "./pages/login"
+import RegisterPage from "./pages/register"
 
 const App = () => {
   return (
     <>
-      <Modal/>
-      <Navbar />
-      <Hero />
-      <Numbers/>
-      <WorkingPage/>
-      <Compare/>
-      <Pricing/>
-      <Footer/>
-    <Popup/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
