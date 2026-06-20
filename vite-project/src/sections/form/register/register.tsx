@@ -21,7 +21,7 @@ const Register = () => {
                         <Text>Get job in weeks</Text>
                         <Text font="playful">₹999</Text>
                     </Box>
-                    <a href="https://rzp.io/rzp/tyP4cEgF"> <Button className="Pricing-card-Button" backgroundColor="Brand"  bold="Bold" rounded="Half" size="large" type="button">Register now</Button> </a>
+                    <a href="https://rzp.io/rzp/82zvXlFo"> <Button className="Pricing-card-Button" backgroundColor="Brand"  bold="Bold" rounded="Half" size="large" type="button">Register now</Button> </a>
                     <Box className="Pricing-card-Info" borderRadius="half">
                         <Text size="small">First priority</Text>
                         <Text size="small">One on one mock interview</Text>
