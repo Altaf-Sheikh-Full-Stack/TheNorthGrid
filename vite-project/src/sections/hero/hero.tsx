@@ -4,6 +4,7 @@ import Button from "../../system/button/button"
 import './hero.css'
 import Box from "../../system/box/box"
 import { userData1, userData2 } from "./userdata"
+import { NavLink } from "react-router"
 
 const Hero = () => {
 
@@ -28,10 +29,12 @@ const Hero = () => {
                 </Box>
 
                 <Box className="Hero-info-buttons" backgroundColor="Brand">
-                    <Button backgroundColor="Black" rounded="Half" size="large" color="light">Land in interviews now</Button>
+                    <NavLink to={'/register'}>
+                        <Button backgroundColor="Black" rounded="Half" size="large" color="light">Land in interviews now</Button>
+                    </NavLink>
                     <Text size="semiMedium">Get a chnace to work with top MNC, <br /> Offer ends today</Text>
                 </Box>
-                
+
 
             </Box>
             <Box className="Hero-Content">
@@ -41,10 +44,10 @@ const Hero = () => {
                             <Box className="Hero-Content-Section-Card" key={index}>
                                 <img src={data.img} alt="" />
                                 <Box className="Hero-Content-Section-Card-Info" >
-                                    
+
                                     <Box className="Hero-Content-Section-Card-Info-Name" >
                                         <Text size="semiMedium">{data.name}</Text>
-                                        <Text  size="semiMedium">{data.salary}</Text>
+                                        <Text size="semiMedium">{data.salary}</Text>
                                     </Box>
                                     <Text size="small">{data.position}</Text>
                                 </Box>
@@ -58,7 +61,7 @@ const Hero = () => {
                             <Box className="Hero-Content-Section-Card" key={index}>
                                 <img src={data.img} alt="" />
                                 <Box className="Hero-Content-Section-Card-Info" >
-                                    
+
                                     <Box className="Hero-Content-Section-Card-Info-Name" >
                                         <Text size="semiMedium">{data.name}</Text>
                                         <Text size="semiMedium">{data.salary}</Text>

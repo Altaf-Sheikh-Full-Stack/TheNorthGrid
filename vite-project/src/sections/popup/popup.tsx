@@ -5,6 +5,7 @@ import { createPortal } from "react-dom"
 import './popup.css'
 // import Text from "../../system/text/text"
 import CountDown from "./countdown/countdown"
+import { NavLink } from "react-router"
 
 // Return of the hollow knight
 
@@ -17,7 +18,9 @@ const Popup = () => {
                 <Section className="Popup">
                     <CountDown />
                     <Box>
-                        <Button backgroundColor="Brand" rounded="Half">Get job now</Button>
+                        <NavLink to={'/register'}>
+                            <Button backgroundColor="Brand" rounded="Half">Get job now</Button>
+                        </NavLink>
                     </Box>
                 </Section>,
                 document.body

@@ -33,10 +33,14 @@ const Navbar = () => {
                 </NavLink>
             </Box>
             <Box className='Navbar-Button-Small' backgroundColor="White" >
-                <Button backgroundColor="LiteWhite" rounded="Half" size="medium">Signup</Button>
-                <Button backgroundColor="Brand" size="medium" rounded="Half">Register</Button>
+                <NavLink to={'/login'}>
+                    <Button backgroundColor="LiteWhite" rounded="Half" size="medium">Signup</Button>
+                </NavLink>
+                <NavLink to={'/register'}>
+                    <Button backgroundColor="Brand" size="medium" rounded="Half">Register</Button>
+                </NavLink>
             </Box>
-        </Section>
+        </Section >
 
     )
 }
