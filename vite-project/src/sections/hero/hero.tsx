@@ -15,7 +15,7 @@ const Hero = () => {
             <Box className="Hero-info" backgroundColor="Brand">
                 <Box className="Hero-info-text" backgroundColor="Brand">
 
-                    <Text color="black" type="heading" font="playful" size="large" >Land in multiple interviews in  weeks or<Text color="black" type="heading" font="playful" size="large" className="Hero-info-text-highlighted">Get 100% refund</Text></Text>
+                    <Text color="black" type="heading" font="playful" size="large" >Resume Review + Mock Interview + Referral Support for Software Engineers</Text>
                     <Text color="black" size="medium">No results? 100% refund. No questions asked. , We NorthGrid give every candidate a chance to prove themself</Text>
                     <Box className="Hero-info-text-Hint" backgroundColor="Brand">
                         <Box backgroundColor="Brand" className="Hero-info-text-Hint-Image">
